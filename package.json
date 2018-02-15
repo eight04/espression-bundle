@@ -1,0 +1,22 @@
+{
+  "name": "espression-bundle",
+  "version": "0.0.0",
+  "description": "Bundle espression with rollup",
+  "scripts": {
+    "test": "exit 1",
+    "build": "rollup -c && rollup -c --environment COMPRESS"
+  },
+  "devDependencies": {
+    "camelcase": "^4.1.0",
+    "rollup": "^0.55.5",
+    "rollup-plugin-commonjs": "^8.2.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-re": "^1.0.6",
+    "rollup-plugin-uglify": "^3.0.0"
+  },
+  "repository": "eight04/espression-bundle",
+  "private": true,
+  "dependencies": {
+    "espression": "^0.1.0"
+  }
+}
