@@ -9,4 +9,4 @@ es5EvalFactory().eval(ast, {a: 1, b: "foo", c: "bar"});
 // [ 2, "oo", "BAR" ]
 ```
 
-[Live demo](https://jsbin.com/wokulacatu/edit?js,console)
+[Live demo](https://jsbin.com/xazibamida/edit?js,console)
